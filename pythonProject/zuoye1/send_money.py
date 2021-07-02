@@ -7,8 +7,9 @@ import money
 #发工资
 def send_money(wages):
     if wages>0:
-        a = wages
-        print("本次发工资:",wages)
+        print(f"本次发工资:{wages}")
         money.saved_money =money.saved_money+wages
-        print("工资已到账，余额: ",money.saved_money)
+        print(f"工资已到账，余额: {money.saved_money}")
+    else:
+        print(f"发放工资失败，发放金额异常{wages}")
 
