@@ -1,0 +1,3 @@
+[32mINFO    [0m root:conftest.py:20 开始计算
+[32mINFO    [0m root:conftest.py:23 结束计算
+[32mINFO    [0m root:conftest.py:15 结束测试
